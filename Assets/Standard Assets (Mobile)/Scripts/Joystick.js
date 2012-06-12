@@ -25,7 +25,7 @@ class Boundary
 
 static private var joysticks : Joystick[];					// A static collection of all joysticks
 static private var enumeratedJoysticks : boolean = false;
-static private var tapTimeDelta : float = 0.3;				// Time allowed between taps
+static private var tapTimeDelta : float = 0.4;	//change here			// Time allowed between taps
 
 var touchPad : boolean; 									// Is this a TouchPad?
 var touchZone : Rect;
